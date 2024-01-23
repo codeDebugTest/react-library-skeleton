@@ -6,7 +6,7 @@ import {ReactElement} from 'react';
 import * as ReactDOM from 'react-dom';
 import type {Root} from 'react-dom/client';
 
-// 移植自rc-util: https://github.com/react-component/util/blob/master/src/React/render.ts
+// rc-util: https://github.com/react-component/util/blob/master/src/React/render.ts
 
 type CreateRoot = (container: ContainerType) => Root;
 

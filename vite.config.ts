@@ -33,7 +33,7 @@ export default defineConfig(({command, mode}) => {
             lib: {
                 entry: 'src/Entry.tsx',
                 name: 'react-sdk',
-                fileName: 'index',
+                fileName: 'react-sdk',
             },
             rollupOptions: {
                 external: ['react', 'react-dom'],
