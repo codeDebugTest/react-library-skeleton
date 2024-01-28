@@ -30,10 +30,11 @@ export default defineConfig(({command, mode}) => {
             }
         },
         build: {
+            target: 'es2015',
             lib: {
                 entry: 'src/Entry.tsx',
                 name: 'react-sdk',
-                fileName: 'react-sdk',
+                fileName: 'index',
             },
             rollupOptions: {
                 external: ['react', 'react-dom'],
